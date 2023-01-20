@@ -26,7 +26,7 @@ def display_text(stdscr, target, current, wpm=0):
         stdscr.addstr(0, i, char, color)
 
 
-def load_text():  # try to import random shit for future
+def load_text():  # try to import from api in future
     with open("text.txt", "r") as f:
         lines = f.readlines()
         return random.choice(lines).strip()  # removes the \n
