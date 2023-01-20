@@ -86,4 +86,5 @@ def main(stdscr):  # std = standard output screen
             continue
 
 
+# run the wrapper
 wrapper(main)
